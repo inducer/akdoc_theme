@@ -1,0 +1,4 @@
+#! /bin/bash
+
+cp -R _template _static "$1/doc"
+(cd $1/doc; rm -Rf _build; make html; ./upload-docs.sh)
