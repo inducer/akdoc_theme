@@ -3,4 +3,16 @@
 set -e
 
 RES=$HOME/src
-./update-akdoc $RES/boxtree
+./update-akdoc $RES/boxtree/doc
+./update-akdoc $RES/cgen/doc
+./update-akdoc $RES/codepy/doc
+./update-akdoc $RES/hedge/doc/manual
+./update-akdoc $RES/islpy/doc
+./update-akdoc $RES/loopy/doc
+./update-akdoc $RES/meshpy/doc
+./update-akdoc $RES/pycuda/doc
+./update-akdoc $RES/pyopencl/doc
+./update-akdoc $RES/pyublas/doc
+./update-akdoc $RES/pyvisfile/doc
+./update-akdoc $RES/modepy/doc
+./update-akdoc $RES/pytential/doc

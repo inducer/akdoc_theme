@@ -1,4 +1,14 @@
 #! /bin/bash
 
-cp -R _template _static "$1/doc"
-(cd $1/doc; rm -Rf _build; make html; ./upload-docs.sh)
+set -e
+set -x
+
+if test -d "$1/source"; then
+  DEST="$1/source"
+else
+  DEST="$1"
+fi
+
+cp -Rv _templates _static "$DEST"
+
+(cd "$1"; rm -Rf _build build; make html; ./upload-docs.sh)
