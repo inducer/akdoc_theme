@@ -17,3 +17,4 @@ RES=$HOME/src
 ./update-akdoc $RES/modepy/doc
 ./update-akdoc $RES/pytential/doc
 ./update-akdoc $RES/leap/doc
+./update-akdoc $RES/meshmode/doc
