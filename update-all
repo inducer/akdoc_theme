@@ -18,4 +18,5 @@ RES=$HOME/src
 ./update-akdoc $RES/pytential/doc
 ./update-akdoc $RES/leap/doc
 ./update-akdoc $RES/meshmode/doc
+./update-akdoc $RES/sumpy/doc
 ./update-akdoc ~/work/django/courseflow/doc
